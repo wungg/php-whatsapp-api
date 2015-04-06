@@ -13,7 +13,7 @@ use Symfony\Component\Console\Application;
 $application = new Application();
 $application->add(new SendCommand);
 /*
-$application->add(new ListenCommand);
+$application->add(new ListenComand);
 $application->add(new InteractiveConversationCommand);
 $application->add(new ChangeStatusCommand);
 */
